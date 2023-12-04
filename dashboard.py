@@ -10,8 +10,8 @@ from sklearn.preprocessing import StandardScaler
 # Fungsi untuk memuat data
 def load_data():
     main_df = pd.read_csv('main_data.csv')
-    day_df = pd.read_csv('../data/day.csv')  # Sesuaikan dengan path file Anda
-    hour_df = pd.read_csv('../data/hour.csv')  # Sesuaikan dengan path file Anda
+    day_df = pd.read_csv('day.csv')  # Sesuaikan dengan path file Anda
+    hour_df = pd.read_csv('hour.csv')  # Sesuaikan dengan path file Anda
     day_df['dteday'] = pd.to_datetime(day_df['dteday'])
     hour_df['dteday'] = pd.to_datetime(hour_df['dteday'])
     return day_df, hour_df
