@@ -11,3 +11,6 @@ pip install numpy pandas matplotlib seaborn scikit-learn jupyter streamlit babel
 ```
 streamlit run dashboard.py
 ```
+
+## Deploy steamlit app
+Link : https://bike-sharing-analytic-nfycrtmgnatcfetkgscntv.streamlit.app/
